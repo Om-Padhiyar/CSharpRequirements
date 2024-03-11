@@ -25,8 +25,13 @@ class Program{
       Console.WriteLine(numbers[i]);
     }
 
+    bool Number = Bool(7);
+    Console.WriteLine(Number);
+
+    }
+
     //Function
-    bool Bool(int type)
+    public static bool Bool(int type)
     {
       if (type > 7){
         return true;
@@ -35,9 +40,6 @@ class Program{
         return false;
       }
     }
-    bool Number = Bool(7);
-    Console.WriteLine(Number);
-  }
 
 }
 
